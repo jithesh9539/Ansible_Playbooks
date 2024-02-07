@@ -20,5 +20,5 @@
     - name: Install google-chrome-stable
       community.general.zypper:
         name: "google-chrome-stable"
-	state: latest
+        state: latest
         update_cache: true
