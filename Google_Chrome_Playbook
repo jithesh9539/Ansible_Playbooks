@@ -1,0 +1,10 @@
+---
+- name: Check if the latest version of chrome is installed 
+  hosts: all
+  become: true
+  tasks:
+	- name: Install google-chrome-stable
+	  community.general.zypper:
+		name: "google-chrome-stable"
+		state: latest
+		update_cache: true
