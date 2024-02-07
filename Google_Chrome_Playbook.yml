@@ -3,7 +3,7 @@
   become: true
   tasks:
     - name: Install google-chrome-stable
-        community.general.zypper:
-	   name: "google-chrome-stable"
-	   state: latest
-           update_cache: true
+      community.general.zypper:
+	name: "google-chrome-stable"
+	state: latest
+	update_cache: true
