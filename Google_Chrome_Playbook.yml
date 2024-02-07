@@ -16,7 +16,7 @@
         auto_import_keys: true
         state: present
         runrefresh: true
-        enable: true
+        enabled: true
     - name: Install google-chrome-stable
       community.general.zypper:
         name: "google-chrome-stable"
